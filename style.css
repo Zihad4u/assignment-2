@@ -1,0 +1,606 @@
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    max-width: 992px;
+    /* border: 2px solid gold; */
+    margin: 0 auto;
+    height: 3830px;
+}
+
+/* header-logo start */
+.website-header {
+    /* border: solid 2px red; */
+    min-height: 50px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.header-logo {
+    width: 50%;
+    /* border: 2px solid yellow; */
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    color: #131318;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.header-logo img {
+    width: 56px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.special-travel-text {
+    /* font-weight: 800; */
+    color: #FF5400;
+}
+
+/* header-logo end */
+/* header-text start */
+.header-text a {
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+}
+
+.header-text {
+    width: 50%;
+    /* border: 2px solid palevioletred; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header-text .special-home-button {
+    color: #FF5400;
+    font-weight: 700;
+}
+
+/* ----------------------HEADER----END-------------------------- */
+/* ----------------------MAIN-EXPLORE-IMAGE----START-------------------------- */
+.explore-pic {
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    color: #FFF;
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+.travel-h3 {
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    height: 60px;
+}
+
+.journey-description {
+    width: 600px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+.input-in-pic {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.common {
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.input-in-pic input::placeholder {
+    text-indent: 10px;
+
+}
+
+.input-in-pic select::placeholder {
+    text-indent: 10px;
+
+}
+
+.color {
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+    color: #FFF;
+    background: #FF5400;
+}
+
+/* ----------------------tour-section----START-------------------------- */
+
+.tour-section {
+    /* border: 2px solid rgb(0, 255, 170); */
+    height: 500px;
+    margin-top: 60px;
+    display: flex;
+    /* border: 2px solid rgb(192, 103, 118); */
+}
+
+.tour-text {
+    width: 60%;
+    /* border: 2px solid rgb(255, 0, 140); */
+    height: 500px;
+    color: #131318;
+}
+
+.tour-h3 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour-p {
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.tour-li {
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 15px;
+}
+
+.tour-button {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+    color: #FFF;
+    border-radius: 5px;
+    background: #FF5400;
+    outline: none;
+    width: 100px;
+    height: 35px;
+    flex-shrink: 0;
+    border: none;
+    padding-bottom: 5px;
+}
+
+.tour-picture {
+    width: 40%;
+    object-fit: cover;
+    background: url(Images/Rectangle\ 4.png);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    /* border: 2px solid rgb(25, 138, 104); */
+}
+
+/* ----------------------tour-section----END-------------------------- */
+/* ----------------------destination----start-------------------------- */
+.destination {
+    /* border: 2px solid rebeccapurple; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.destination-h2 {
+    color: #131318;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.destination-p {
+    width: 600px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    /* border: 2px solid rgb(202, 17, 41); */
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* ----------------------7picture----start-------------------------- */
+.geid-image-container {
+    min-height: 800px;
+    width: 992px;
+    /* border: 2px solid rgb(36, 21, 172); */
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    /* display: flex; */
+
+}
+
+.img-1-2-container {
+    height: 280px;
+    width: 100%;
+    /* border: 2px solid goldenrod; */
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+
+}
+
+.img-1 {
+    width: 49%;
+    /* border: 2px solid rebeccapurple; */
+    height: 100%;
+    background: url(Images/Rectangle\ 5.png);
+    /* border: 2px solid yellowgreen; */
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.img-2 {
+    width: 49%;
+    /* border: 2px solid rebeccapurple; */
+    height: 100%;
+    background: url(Images/Rectangle\ 8.png);
+    /* border: 2px solid yellowgreen; */
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-image-container-2 {
+    width: 100%;
+    height: 280px;
+    /* border: 2px solid pink; */
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.img-3 {
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid navy; */
+    background: url(Images/Rectangle\ 6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-4 {
+    width: 45%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background: url(Images/Rectangle\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-5 {
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid rgb(54, 3, 121); */
+    background: url(Images/Rectangle\ 9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-image-container-3 {
+    width: 100%;
+    height: 280px;
+    /* border: 2px solid pink; */
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.img-6 {
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid rebeccapurple; */
+    background: url(Images/Rectangle\ 11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-7 {
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid rebeccapurple; */
+    background: url(Images/Rectangle\ 10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------------------7picture----END-------------------------- */
+/* ----------------------why chose us----start-------------------------- */
+.chose-us {
+    /* border: 2px solid rebeccapurple; */
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.chose-us-h3 {
+    color: #131318;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.chose-us-p {
+    width: 600px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    /* border: 2px solid rgb(202, 17, 41); */
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* ----------------------why chose us----end-------------------------- */
+/* ----------------------chose us  image----start-------------------------- */
+.chose-us-img-1-container {
+    height: 500px;
+    width: 992px;
+    /* border: 2px solid red; */
+}
+
+.chose-us-img-1-2 {
+    width: 100%;
+    height: 250px;
+    /* border: 2px solid rgb(98, 0, 255); */
+    display: flex;
+    gap: 10px;
+}
+
+.chose-1 {
+    width: 48%;
+    height: 100%;
+    /* border: 2px solid rgb(29, 24, 24); */
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding-left: 15px;
+    background: rgba(251, 181, 99, 0.05);
+    padding-top: 5px;
+
+
+}
+
+.chose-2 {
+    width: 48%;
+    height: 100%;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding-left: 15px;
+    background: rgba(41, 206, 246, 0.05);
+
+
+}
+
+.chose-us-img-3 {
+    width: 100%;
+    height: 45%;
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+
+}
+
+.chose-3 {
+    width: 50%;
+    height: 99%;
+    border: 2px solid rgb(19, 19, 17);
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    /* border: 1px solid red; */
+    padding-left: 15px;
+    padding-top: 5px;
+
+}
+
+/* ----------------------news----start-------------------------- */
+.news-latter {
+    height: 350px;
+    width: 992px;
+    /* border: 2px solid red; */
+    margin-top: 16px;
+    color: #5A5A5D;
+    display: flex;
+    gap: 15px;
+}
+
+.news-text {
+    height: 88%;
+    width: 45%;
+    border-radius: 16px;
+    /* border: 1px solid #FF5400; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 20px;
+    position: relative;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    gap: 5px;
+}
+
+.news-text input::placeholder {
+    text-indent: 10px;
+    border-radius: 8px;
+
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+
+}
+
+.news-text input {
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+
+.news-text button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    color: #FFF;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: none;
+}
+
+/* .news-text h3{
+    margin-top: 10px;
+} */
+.news-latter-pic {
+    height: 102%;
+    width: 51%;
+    /* border: 2px solid red; */
+    background: url(Images/Rectangle\ 8\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    object-fit: cover;
+    /* position: relative; */
+}
+
+.black-line {
+    position: absolute;
+    background: rgba(19, 19, 24, 0.10);
+    width: 393px;
+    height: 5px;
+    margin-top: -10px;
+    /* Adjust this value to move the line up */
+}
+
+.save-up {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 280px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    position: absolute;
+    /* bottom: 0;
+    right: 0; */
+    margin-left: 200px;
+    margin-top: 182px;
+    /* ----------------------footer----start-------------------------- */
+}
+
+.footer {
+    height: 500px;
+    width: 992px;
+    /* border: 2px solid red; */
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+
+}
+
+.footer-div-1 {
+    color: #FF5400;
+}
+
+.footer-div-1 img {
+    width: 100px;
+}
+.unique{
+    width: 600px;
+}
+.unique-2{
+    width: 872px ;
+    height: 1px;
+}
